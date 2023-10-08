@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
-$email_form = 'info@gmail.com';
+$email_form = 'harshitasin.github.io/ECSnotes/';
 $email_body="User Name: $name.\n".
             "User Email: $visitor_email.\n".
                 "Message: $message .\n";
