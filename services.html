@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECSNotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="services.html">OTHER FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Services</h1>
+
+    </section>
+    <!-- -------------services-page----------- -->
+    <section class="service" id="servi">
+        <h1>Our Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti similique dolore magnam.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Summer Training</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorem exercitationem in eum
+                    maxime necessitatibus neque unde obcaecati ab ipsum quaerat sed similique, ex corrupti voluptates
+                    non autem. Ab, quia.</p>
+            </div>
+            <div class="service-col">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorem exercitationem in eum
+                    maxime necessitatibus neque unde obcaecati ab ipsum quaerat sed similique, ex corrupti voluptates
+                    non autem. Ab, quia.</p>
+            </div>
+            <div class="service-col">
+                <h3>Internship</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dolorem exercitationem in eum
+                    maxime necessitatibus neque unde obcaecati ab ipsum quaerat sed similique, ex corrupti voluptates
+                    non autem. Ab, quia.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- ----------------------footer------------------------------- -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nobis dicta velit. Vero, labore
+            necessitatibus quia tenetur ut sequi nostrum fugiat. Officia odio error cupiditate ipsum reiciendis? Ea,
+            officiis vel!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-solid fa-heart"></i> by Electrocus</p>
+            
+    </section>
+    <!-- js for toggle menu -->
+    <script>
+
+        var navlinks = document.getElementById("navlinks")
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
